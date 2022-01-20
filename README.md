@@ -15,7 +15,9 @@
 * Background: nohup bash mvnw.cmd spring-boot:run &
 
 ### Testing Application
-* Abrir navegador: http://localhost:8082/rest/mscovid/test?msg=testing
+* Abrir navegador: 
+http://localhost:8082/rest/mscovid/test?msg=testing
+http://localhost:8082/rest/mscovid/estadoMundial?msg=testing
 * curl  'http://localhost:8082/rest/mscovid/test?msg=testing'
 
 
