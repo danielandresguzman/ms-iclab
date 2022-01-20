@@ -1,7 +1,6 @@
 # Getting Started
 
-## Windows
-
+## Windowsasd
 ### Compile Code
 * ./mvnw.cmd clean compile -e
 
@@ -16,7 +15,9 @@
 * Background: nohup bash mvnw.cmd spring-boot:run &
 
 ### Testing Application
-* Abrir navegador: http://localhost:8080/rest/mscovid/test?msg=testing
+* Abrir navegador: http://localhost:8082/rest/mscovid/test?msg=testing
+* curl  'http://localhost:8082/rest/mscovid/test?msg=testing'
+
 
 ## Linux
 
@@ -34,4 +35,4 @@
 * Background: nohup bash mvnw spring-boot:run &
 
 ### Testing Application
-* curl -X GET 'http://localhost:8080/rest/mscovid/test?msg=testing'
+* curl -X GET 'http://localhost:8082/rest/mscovid/test?msg=testing'
