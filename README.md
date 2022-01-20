@@ -17,7 +17,7 @@
 ### Testing Application
 * Abrir navegador: http://localhost:8082/rest/mscovid/test?msg=testing
 * curl  'http://localhost:8082/rest/mscovid/test?msg=testing'
-
+http://localhost:8082/rest/mscovid/estadoPais?pais=chile
 
 ## Linux
 
