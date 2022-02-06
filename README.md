@@ -20,6 +20,11 @@ http://localhost:8082/rest/mscovid/test?msg=testing
 http://localhost:8082/rest/mscovid/estadoMundial?msg=testing
 * curl  'http://localhost:8082/rest/mscovid/test?msg=testing'
 
+# Getting Startedgradle
+$ ./gradle build
+$ ./gradle gradle bootRun
+curl -X GET 'http://localhost:8082/rest/mscovid/estadoMundial?msg=testing'
+
 
 ## Linux
 
