@@ -46,7 +46,7 @@ public class RestData {
 
 
 		if (call.getBody() == null) {
-            System.out.println("call.getBody() is Null");
+			LOGGER.log(Level.INFO, "body viene nullo");
 		}else{
 			Mundial estado = gson.fromJson(call.getBody().toLowerCase(), Mundial.class);
 			response.setTotalConfirmed(estado.getTotalConfirmed());
